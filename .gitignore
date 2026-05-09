@@ -1,0 +1,41 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.vite/
+
+# environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# generated frontend data
+public/data/
+public/**/*.json
+
+# raw/cache data
+data/
+*.parquet
+*.csv
+
+# keep important root config JSON files
+!package.json
+!package-lock.json
+!tsconfig.json
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# temporary files
+tree.txt
